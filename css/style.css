@@ -83,7 +83,7 @@ main {
 }
 
 hr {
-    border-top: 2px solid #2d8edf;
+    border-top: 2px solid lightgrey;
 }
 
 /* Font awesome icons */
@@ -146,9 +146,13 @@ footer {
 
 .portfolio {
     background-color: rgb(235, 235, 235);
-    border: 2px solid darkgrey;
+    border: 2px solid rgb(255, 196, 0);
     margin: 10px auto;
     width: 85%;
+}
+
+.portfolio hr {
+    border: 2px solid lightgrey;
 }
 
 .skills {
@@ -199,7 +203,7 @@ form .submit:hover {
     position: relative;
     text-align: center;
     cursor: default;
-    background: #11cdee;
+    background: #2b373a;
   }
   
   .hovereffect .overlay {
@@ -338,8 +342,8 @@ form .submit:hover {
     }
     /* Portfolio page styles */
     .portfolio {
-    background-color: lightgrey;
-    border: 2px solid darkgrey;
+    background-color: rgb(235, 235, 235);
+    border: 5px solid rgb(255, 196, 0);
     margin: 0 auto;
     width: 100%;   
     }
