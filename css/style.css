@@ -7,19 +7,17 @@ html, body {
     font-family: 'Poppins', sans-serif;
     color: #222;
 }
-
 main {
     padding: 0 1em 0 1em;
 }
+
 /* Navbar */
 .navbar {
     padding: .8rem;
 }
-
 .navbar-nav li {
     padding-right: 20px;
 }
-
 .nav-link {
     font-size: 1.1em !important;
 }
@@ -28,26 +26,22 @@ main {
 .carousel-inner img {
     width: 100%;
 }
-
 .carousel-caption {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     z-index: 5;
 }
-
 .carousel-caption h1 {
     font-size: 500%;
     text-shadow: 1px 1px 15px #000;
 }
-
 .carousel-caption h3 {
     font-size: 200%;
     font-weight: 500;
     text-shadow: 1px 1px 10px #000;
     padding-bottom: 1rem;
 }
-
 #hero {
     text-align: left;
     text-shadow: 1px 1px 10px #000;
@@ -58,18 +52,15 @@ main {
 .btn {
     font-weight: bold;
  }
-
 .btn-primary {
     background-color: #2d8edf;
     border: 1px solid #024d8a;
     z-index: 10;
 }
-
 .btn-primary:hover {
     background-color: #11cdee;
     border: 1px solid #066d80;
 }
-
 .btn-portfolio {
     background-color: #fbda17;
     border: 1px solid #605953;
@@ -110,63 +101,52 @@ main {
     border: 1px solid #3d4349;
     color: #3d4349;
 }
-
 .padding {
     padding-bottom: 2rem;
 }
-
 .welcome {
     width: 75%;
     margin: 0 auto;
     padding-top: 2rem;
 }
-
 .welcome hr, hr {
     border-top: 2px solid #b4b4b4;
     width: 95%;
     margin-top: .3rem;
     margin-bottom: 1rem;
 }
-
 hr {
     border-top: 2px solid lightgrey;
 }
-
 
 /* Font awesome icons */
 .fa-wordpress {
     color: #21759b;
 }
-
 .fa-users {
     color: #8f7034;
 }
-
 .fa-drupal {
     color: #0c76ab;
 }
-
 .fa-code {
     color: red;
 }
-
 .fa-linkedin{
     color: #0072b1;
 }
-
 .fa-envelope {
     color: #c71610;
 }
-
 .fa-wordpress, .fa-users, .fa-drupal, .fa-code {
     font-size: 3.5em;
     margin: 1rem;
 }
+
 /* Two column */
 #me {
    padding-right: 20px;
 }
-
 #summary {
     padding-left: 30px;
 }
@@ -176,7 +156,6 @@ hr {
     font-size: 3em;
     padding: 3rem;
 }
-
 .fa-linkedin:hover, 
 .fa-envelope:hover {
     color: #d5d5d5;
@@ -190,29 +169,24 @@ footer {
 }
 
 /* Portfolio & Resume page styles */
-
 .portfolio {
 
     margin: 10px auto;
     width: 85%;
 }
-
 .portfolio hr {
     border: 2px solid lightgrey;
 }
-
 .skills {
     padding-top: 30px;
 }
 
 /*Contact page styles*/
-
 .disclaimer {
     padding: 0 15%;
     color: red;
     font-size: 14px;
 }
-
 .contact-form {
     width: 85%;
     max-width: 600px;
@@ -224,19 +198,16 @@ footer {
     box-shadow: 0 0 20px #000000b3;
     margin: 50px auto;
 }
-
 .contact-form h1 {
     margin-top: 0;
     font-weight: 200;
 }
-
 .txtb {
     border-radius: 1px solid gray;
     margin: 8px 0;
     padding: 12px 18px;
     border-radius: 8px;
 }
-
 .txtb label {
     display: block;
     text-align: left;
@@ -244,7 +215,6 @@ footer {
     text-transform: uppercase;
     font-size: 14px;
 }
-
 .txtb input, textarea {
     width: 100%;
     border: none;
@@ -255,11 +225,7 @@ footer {
     background-color: rgba(255, 255, 255, 0.767);
 }
 
-
-
-
 /*--Hover Effect for fun facts on the homepage --*/
-
 .hovereffect {
     width: 100%;
     height: 100%;
@@ -270,8 +236,7 @@ footer {
     cursor: default;
     background: #3d4349;
   }
-  
-  .hovereffect .overlay {
+    .hovereffect .overlay {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -280,8 +245,7 @@ footer {
     left: 0;
     padding: 50px 20px;
   }
-  
-  .hovereffect img {
+    .hovereffect img {
     display: block;
     position: relative;
     max-width: none;
@@ -293,15 +257,13 @@ footer {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
   }
-  
-  .hovereffect:hover img {
+    .hovereffect:hover img {
     opacity: 0.4;
     filter: alpha(opacity=40);
     -webkit-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
   }
-  
-  .hovereffect h2 {
+    .hovereffect h2 {
     text-transform: uppercase;
     color: #fff;
     text-align: center;
@@ -311,8 +273,7 @@ footer {
     padding: 0.5em 0;
     background-color: transparent;
   }
-  
-  .hovereffect h2:after {
+    .hovereffect h2:after {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -325,13 +286,11 @@ footer {
     -webkit-transform: translate3d(-100%,0,0);
     transform: translate3d(-100%,0,0);
   }
-  
-  .hovereffect:hover h2:after {
+    .hovereffect:hover h2:after {
     -webkit-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
   }
-  
-  .hovereffect a, .hovereffect p {
+    .hovereffect a, .hovereffect p {
     color: #FFF;
     opacity: 0;
     filter: alpha(opacity=0);
@@ -340,8 +299,7 @@ footer {
     -webkit-transform: translate3d(100%,0,0);
     transform: translate3d(100%,0,0);
   }
-  
-  .hovereffect:hover a, .hovereffect:hover p {
+    .hovereffect:hover a, .hovereffect:hover p {
     opacity: 1;
     filter: alpha(opacity=100);
     -webkit-transform: translate3d(0,0,0);
@@ -349,6 +307,8 @@ footer {
   }
 
 /*---Media Queries --*/
+
+/*Desktop*/
 @media (max-width: 992px) {
     .social a {
         font-size: 1.5em;
@@ -356,6 +316,7 @@ footer {
     }
   }
 
+/*Tablet */
 @media (max-width: 768px) {
     .carousel-caption {
         top: 45%;
@@ -381,6 +342,7 @@ footer {
     }
 }
 
+/* Phone */
 @media (max-width: 576px) {
     .carousel-caption {
         top: 40%;
@@ -420,7 +382,6 @@ footer {
   -webkit-backface-visibility: visible;
   backface-visibility: visible;
 }
-
 
 /*--- Bootstrap Padding Fix --*/
 [class*="col-"] {
