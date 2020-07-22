@@ -62,13 +62,13 @@ main {
     border: 1px solid #066d80;
 }
 .btn-portfolio {
-    background-color: #fbda17;
-    border: 1px solid #605953;
-    color: #605953;
+    background-color: #a298ea;
+    border: 1px solid white;
+    color: white;
 }
 .btn-portfolio:hover {
-    background-color: #c0c4c5;
-    border: 1px solid 	#c8cfd4;
+    background-color: #f4e1a9;
+    border: 1px solid 	#a298ea;
     color: white;
 }
 .btn-contact {
