@@ -62,14 +62,14 @@ main {
     border: 1px solid #066d80;
 }
 .btn-portfolio {
-    background-color: #a298ea;
-    border: 1px solid white;
+    background-color: #61a17e;
+    border: 1px solid #c8c7ca;
     color: white;
 }
 .btn-portfolio:hover {
-    background-color: #f4e1a9;
-    border: 1px solid 	#a298ea;
-    color: white;
+    background-color: #c8c7ca;
+    border: 1px solid #61a17e;
+    color: #61a17e;
 }
 .btn-contact {
     background-color: 	#b76b75;
